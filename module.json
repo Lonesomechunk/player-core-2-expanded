@@ -1,0 +1,88 @@
+{
+  "id": "player-core-2-expanded",
+  "title": "Player Core 2 Expanded",
+  "description": "Enjoying the remastered classes in Player Core 2 but wished there was more? How about a Swashbuckler that made explosive use out of Crafting, or an Investigator that carries with it just a hint of magical power to solve even crazier mysteries? Brought to you by 6 Infinite authors and specially tuned for the PF2e Remaster!",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Conner Berkheiser",
+      "discord": "lonesomechunk",
+      "flags": {}
+    },
+    {
+      "name": "Ruben \"Lyon\" Salazar",
+      "discord": "lyon_naglfar",
+      "flags": {}
+    },
+    {
+      "name": "Raul \"Valor\" Padilla",
+      "discord": "valor_bard",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "pc2e-player-options",
+      "label": "Player Options",
+      "banner": "modules/player-core-2-expanded/assets/banners/banner1.webp",
+      "path": "packs/player-options",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pc2e-others",
+      "label": "Others",
+      "banner": "modules/player-core-2-expanded/assets/banners/banner2.webp",
+      "path": "packs/others",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Core Expanded",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Player Core 2 Expanded",
+          "sorting": "m",
+          "packs": [
+            "pc2e-player-options",
+            "pc2e-others"
+          ],
+          "color": null,
+          "folders": []
+        }
+      ],
+      "color": null
+    }
+  ],
+  "url": "https://github.com/Lonesomechunk/OceansUnleashed",
+  "manifest": "https://raw.githubusercontent.com/Lonesomechunk/OceansUnleashed/master/module.json",
+  "download": "https://github.com/Lonesomechunk/OceansUnleashed/archive/refs/heads/main.zip"
+}
